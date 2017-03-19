@@ -1,0 +1,15 @@
+#secondRow{
+  margin-top: 100px;
+}
+th{
+
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 4px solid black;
+
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+}

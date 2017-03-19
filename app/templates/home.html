@@ -1,1 +1,37 @@
-<h1>Hello World</h1>
+<div class="conatianer">
+    <div class="row">
+        <div class="col-sm-offset-2 col-sm-2" class="form-group">
+            <label for=""></label>
+            <input ng-model="newFirstName" type="text" class="form-control" id="" placeholder="FirstName">
+        </div>
+        <div class="col-sm-2" class="form-group">
+            <label for=""></label>
+            <input ng-model="newLastName" type="text" class="form-control" id="" placeholder="lastName">
+        </div>
+        <div class="col-sm-2" class="form-group">
+            <label for=""></label>
+            <input ng-model="newEmail" type="text" class="form-control" id="" placeholder="email">
+
+        </div>
+        <div class="col-sm-1">
+          <button class="btn btn-default" type="button" name="button" ng-click="addForm()" style="margin-top:20px">Submit</button>
+        </div>
+    </div>
+    <div class="row" id="secondRow">
+        <div class="col-sm-offset-4 col-sm-4">
+            <table>
+              <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Email</th>
+              </tr>
+              <tr ng-repeat="contact in contacts track by $index" >
+                <td>{{contact.firstName}}</td>
+                <td>{{contact.lastName}}</td>
+                <td>{{contact.email}}</td>
+              </tr>
+
+            </table>
+        </div>
+    </div>
+</div>

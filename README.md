@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Lineman build](https://travis-ci.org/JbPasquier/mean-lineman.svg?branch=master)
 
 # [MEAN](http://mean.io/) Starter with [Lineman](http://linemanjs.com/)
@@ -32,3 +33,6 @@ npm run production
 ```
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+=======
+# queteAngular
+>>>>>>> b08bd1ffa8a40fcdd9e0d53ea3d0570ea5468ce0
